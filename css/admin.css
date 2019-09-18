@@ -1,0 +1,20 @@
+h3.accordion-section-title.locked:after {
+    content: "\f160" !important;
+}
+
+h3.accordion-section-title.locked a {
+    position: absolute;
+    right: 0;
+    background: #8224e3;
+    display: inline-block;
+    padding: 3px 15px;
+    z-index: 5;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    top: 7.5px;
+}
+
+h3.accordion-section-title.locked{
+    position: relative;
+}
